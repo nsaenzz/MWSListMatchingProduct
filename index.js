@@ -113,14 +113,14 @@ function getAsinNumber(query) {
         }
     }
     else {
-        //if it is not an url return asin 
+        //if it is not an url return asin
         return query
     }
     return "No Found ASIN"
 }
 
 
-exports.sunshipCalculator = async (req, res) => {
+exports.functionListMatchingProductMWS = async (req, res) => {
     const queryMWS = req.query.query || req.body.query || 'B072X2HHQ3';
     const asinMWS = getAsinNumber(queryMWS);
     if (asinMWS === "No Found ASIN") {
