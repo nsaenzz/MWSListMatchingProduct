@@ -5,7 +5,7 @@ This project was created on GCP Functions
 gcpProject.zone.url.com/funciton?query=asin
 gcpProject.zone.url.com/funciton?query=amazonurl
 
-#Instalation
+# Instalation
 
 npm install
 update constanst.js file
