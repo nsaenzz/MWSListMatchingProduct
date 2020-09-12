@@ -7,6 +7,6 @@ This project was created on GCP Functions
 
 ## Instalation
 
-npm install
-update constanst.js file
+* npm install
+* update constanst.js file
 
