@@ -1,6 +1,6 @@
 # MWSListMatchingProduct
-get List Matching Product from amazon mws with asin or url
-This project was created on GCP Functions
+get List Matching Product from amazon mws with asin or url <br>
+This project was created on GCP Functions and NodeJS
 
 * gcpZone.ProjectName.cloudfunctions.net/funcitonName?query=asin
 * gcpZone.ProjectName.cloudfunctions.net/funcitonName?query=amazonurl
